@@ -13,7 +13,7 @@ services:
         condition: on-failure
 
   grafana:
-    image: bitnami/grafana
+    image: grafana/grafana:6.5.0
     ports:
       - "3005:3000"
     volumes:
